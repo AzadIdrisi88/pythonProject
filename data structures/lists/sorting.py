@@ -37,14 +37,17 @@
 def f(s):
     print(s)
     return s[0]
+
+
 a = ["ball", "cat", "apple"]
 print(a)
 a.sort(key=f)
 print(a)
 
 # Using lambda
-a.sort(key=lambda x:x[len(x) - 1], reverse=True)  # Sorting by last character and reverse
+a.sort(key=lambda x: x[len(x) - 1], reverse=True)  # Sorting by last character and reverse
 print(a)
+
 
 def mycompare(a, b):
     # Return -ve if a<b , 0 if a==b and +ve if a>b
@@ -69,5 +72,3 @@ print(a)
 a = [random.randint(100) for x in range(10)]
 a.sort(key=ft.cmp_to_key(lambda a, b: a - b))
 print(a)
-
-
