@@ -1,0 +1,11 @@
+english = {"a", "b", "c", "d"}
+hindi = {"b", "c", "d"}
+chinese = {"a", "d"}
+i = english.intersection(hindi)
+print("english and hindi known= ", i)
+i = hindi.intersection(chinese)
+print("hindi and chinese known= ", i)
+i = english.intersection(chinese)
+print("english and chinese known= ", i)
+i = english.intersection(chinese, hindi)
+print("all known language = ", i)
