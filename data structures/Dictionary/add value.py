@@ -12,4 +12,5 @@ while True:
     if option == 2:
         print(d)
         continue
+
     print("invalid")
