@@ -16,5 +16,17 @@ def knows(a, b):
     return False
 print(knows(3,1))
 
+#  Find area and perimeter of rectangle.
+
+a=int(input("Lenth of rectangle= "))
+b=int(input("Width of rectangle= "))
+Area=a*b
+print("Aera of rectangle=",Area)
+perimeter=2*(a+b)
+print("Perimeter of rectangle=",perimeter)
+cm=100*Area
+print("area  in cm = ",cm)
+cm=100*perimeter
+print("perimeter  in cm = ",cm)
 
 

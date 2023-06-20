@@ -11,7 +11,5 @@ elif operators == "/":
     print("Division is ", n1 / n2)
 elif operators == "**":
     print("Square is ", n1 ** n2)
-
-
 else:
     print("Invalid Operator")
