@@ -1,4 +1,4 @@
-a = ["apple", "mango", "orange", "cat", "deer"]
+a = ["apple", "mango", "orange", "cat", "deer",'aam']
 
 
 def countVowels(x):

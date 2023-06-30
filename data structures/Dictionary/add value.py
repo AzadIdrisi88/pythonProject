@@ -1,6 +1,6 @@
 d = {}
 while True:
-    print("0-Exit", "1-item")
+    print("0-Exit", "1-item", "2-To Show")
     option = int(input())
     if option == 0:
         break
