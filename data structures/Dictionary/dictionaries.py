@@ -22,7 +22,7 @@ print(d.get("UPP"))
 print(d.get("UP", "Not Found"))
 print(d.get("UPP", "Not Found"))
 d.pop("UP")
-d.
+
 print(d)
 d.clear()
 print(d)

@@ -30,7 +30,7 @@ n = len(l)
 print(n)
 print(l[0], l[2], l[3])
 print()
-#
+
 for i in range(n):
     print(l[i], "=", l[-n + i])
 print()
@@ -48,7 +48,7 @@ print("min value", min(l))
 print("max value", max(l))
 
 l = [0, 1, "two", 3, "four", 5]
-print("1 to 3",l[1:4])
-print("1 to end",l[1:])
-print("Beginning to 3",l[:4])
-print("complete Array",l[:])
+print("1 to 3", l[1:4])
+print("1 to end", l[1:])
+print("Beginning to 3", l[:4])
+print("complete Array", l[:])

@@ -16,4 +16,4 @@ for x in l:
 # frequencies += 1
 # frequencies[x] = currentfrequency
 # print(frequencies)
-print(frequencies)
+# print(frequencies)
